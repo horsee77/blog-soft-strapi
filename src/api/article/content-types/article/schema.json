@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": "Create your blog content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "News",
+        "Tecnologia",
+        "Financeiro",
+        "Segurança",
+        "Integrações"
+      ]
+    },
+    "author": {
+      "type": "component",
+      "component": "shared.author",
+      "repeatable": false
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "blocks"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}
