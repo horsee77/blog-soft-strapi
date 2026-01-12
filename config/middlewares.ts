@@ -7,7 +7,7 @@ export default [
     name: 'strapi::cors',
     config: {
       origin: [
-        'https://https://gray-llama-908228.hostingersite.com/',
+        'https://gray-llama-908228.hostingersite.com',
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',
