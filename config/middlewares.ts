@@ -8,6 +8,8 @@ export default [
     config: {
       origin: [
         'https://gray-llama-908228.hostingersite.com',
+        'https://softnivel.com.br',
+        'https://www.softnivel.com.br'
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',
