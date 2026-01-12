@@ -7,7 +7,7 @@ export default [
     name: 'strapi::cors',
     config: {
       origin: [
-        'https://softnivel.com.br',
+        'https://https://gray-llama-908228.hostingersite.com/',
       ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
       headers: '*',
